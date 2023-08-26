@@ -6,6 +6,7 @@
 			//{"type" : "UNDEAD"}
 		},	
 		"advMapAmount" : {"max" : 20, "min" : 10},
+		"special" : true,
 		"aiValue" : 522,
 		"attack" : 10,
 		"cost" : { "gold" : 300 },
