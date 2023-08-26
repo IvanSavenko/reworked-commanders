@@ -192,7 +192,7 @@
 					"primaryBloodlust" : {
 						"val" : 6,
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
+						"subtype" : "primarySkill.attack",
 						"effectRange" : "ONLY_MELEE_FIGHT",
 						"duration" : "N_TURNS"
 					},
@@ -344,7 +344,7 @@
 							},
 							"primarySkin" : {
 								"type" : "PRIMARY_SKILL",
-								"subtype" : "primSkill.defence",
+								"subtype" : "primarySkill.defence",
 								"val" : 6,
 								"duration" : "N_TURNS"
 							}
@@ -384,7 +384,7 @@
 				"effects" : {
 					"primaryPrec" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
+						"subtype" : "primarySkill.attack",
 						"val" : 6,
 						"effectRange" : "ONLY_DISTANCE_FIGHT",
 						"duration" : "N_TURNS"
@@ -427,13 +427,13 @@
 				"effects" : {
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
+						"subtype" : "primarySkill.attack",
 						"val" : 2,
 						"duration" : "N_TURNS"
 					},
 					"defence" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"val" : 2,
 						"duration" : "N_TURNS"
 					},
@@ -478,13 +478,13 @@
 				"effects" : {
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.attack",
+						"subtype" : "primarySkill.attack",
 						"val" : 2,
 						"duration" : "N_TURNS"
 					},
 					"defence" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.defence",
+						"subtype" : "primarySkill.defence",
 						"val" : 2,
 						"duration" : "N_TURNS"
 					},
