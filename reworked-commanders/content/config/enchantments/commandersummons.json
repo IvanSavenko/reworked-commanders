@@ -1355,7 +1355,7 @@
 					
 					"powerBoost" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primSkill.spellpower", 
+						"subtype" : "primarySkill.spellpower", 
 						"updater" : {
 							"parameters" : [ 5 ],
 							"type" : "GROWS_WITH_LEVEL"
