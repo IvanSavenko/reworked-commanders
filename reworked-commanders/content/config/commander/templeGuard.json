@@ -95,7 +95,7 @@
 			"manaUpgrade" :
 			{
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primSkill.knowledge",
+				"subtype" : "primarySkill.knowledge",
 				"propagator" : "HERO",
 				"updater" : {
 					"parameters" : [ 5 ],
