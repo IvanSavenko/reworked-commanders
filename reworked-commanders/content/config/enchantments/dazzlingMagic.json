@@ -134,7 +134,7 @@
 			{	
 				"type" : "CREATURE_DAMAGE",
 				"propagator": "BATTLE_WIDE",
-				"subtype" : 1,
+				"subtype" : "creatureDamageMin",
 				"val" : 0,
 				"valueType" : "INDEPENDENT_MIN",
                 "limiters": [
@@ -150,7 +150,7 @@
 			{	
 				"type" : "CREATURE_DAMAGE",
 				"propagator": "BATTLE_WIDE",
-				"subtype" : 2,
+				"subtype" : "creatureDamageMax",
 				"val" : 0,
 				"valueType" : "INDEPENDENT_MIN",
                 "limiters": [

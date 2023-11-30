@@ -302,7 +302,7 @@
 					},
 
 					"speedRevert" : {
-						"addInfo" : 0,
+//						"addInfo" : 0,
 						"type" : "ENCHANTED",
 						"subtype" : "spell.machineSummoned",
 						"limiters": [ "noneOf", {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.machinePriority"]	} ]
@@ -394,7 +394,6 @@
 				"effects" : {
 					
 					"speedRevert" : {
-						"addInfo" : 0,
 						"type" : "MORE_DAMAGE_FROM_SPELL",
 						"val" : 100,
 						"subtype" : "spell.machinePriority"
@@ -472,7 +471,6 @@
 					},
 					
 					"timeRevert" : {
-						"addInfo" : 0,
 						"type" : "ENCHANTED",
 						"subtype" : "spell.siegeLimiterOff",
 						"limiters": [
@@ -532,7 +530,6 @@
 				"effects" : {
 					
 					"siegeLimiter1" : {
-						"addInfo" : 0,
 						"type" : "MORE_DAMAGE_FROM_SPELL",
 						"val" : 100,
 						"subtype" : "spell.siegeLimiterOff"
@@ -580,7 +577,6 @@
 					
 
 					"stacksSpeed" : {
-						"addInfo" : 0,
 						"type" : "STACKS_SPEED",
 						"val" : 999,
 						"duration" : "STACK_GETS_TURN",	
@@ -595,7 +591,6 @@
 					},
 
 					"speedRevert" : {
-						"addInfo" : 0,
 						"type" : "ENCHANTED",
 						"subtype" : "spell.soulExtracted",	
 						"limiters": [ "noneOf", 
@@ -697,7 +692,6 @@
 							},
 
 							"-2morale" : {
-								"addInfo" : 0,
 								"type" : "ENCHANTED",
 								"subtype" : "spell.bannerOfDeath",
 								"limiters": [
@@ -708,12 +702,9 @@
 									],
 									[ "allOf", 
 										{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.bannerOfDeath"]	} ]
-											]
+									]
 							}
-
-							
-
-					}
+						}
 					}
 				}				
 			},
@@ -757,7 +748,6 @@
 				"targetModifier":{"smart":false},
 				"effects" : {
 					"commsLimiter" : {
-						"addInfo" : 0,
 						"type" : "MORE_DAMAGE_FROM_SPELL",
 						"val" : 100,
 						"subtype" : "spell.soulExtracted"
@@ -841,7 +831,6 @@
 				"effects" : {
 					
 					"commsLimiter" : {
-						"addInfo" : 0,
 						"type" : "MORE_DAMAGE_FROM_SPELL",
 						"val" : 100,
 						"subtype" : "spell.soulExtracted",
@@ -900,7 +889,6 @@
 				"targetModifier":{"smart":true},
 				"effects" : {
 					"commsLimiter" : {
-						"addInfo" : 0,
 						"type" : "MORE_DAMAGE_FROM_SPELL",
 						"val" : 100,
 						"subtype" : "spell.expExtracted"
@@ -946,11 +934,9 @@
 								"type" : "STACKS_SPEED",
 								"valueType" : "ADDITIVE_VALUE",
 								"val" : -111,
-								"subtype" : "spell.expStop",
 								"limiters": [
 											{"type" : "CREATURE_TYPE_LIMITER", "parameters" : [ "expSoul1", true ]	}
 									]
-								//"propagator": "BATTLE_WIDE"
 							}
 						}
 					}
@@ -1075,7 +1061,6 @@
 					},
 
 					"speedRevert" : {
-						"addInfo" : 0,
 						"type" : "ENCHANTED",
 						"subtype" : "spell.slaveSummoned",	
 						"limiters": [ "noneOf", 
@@ -1176,10 +1161,9 @@
 						},
 
 						"speedRevert" : {
-							"addInfo" : 0,
+//							"addInfo" : 0,
 							"type" : "STACKS_SPEED",
 							"valueType" : "INDEPENDENT_MIN",
-							"subtype" : "spell.bannerOfDeath",
 							"limiters": [
 								[ "noneOf", 
 									{"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.slavePriority" ]	}
@@ -1258,14 +1242,13 @@
 				"effects" : {
 					
 					"speedRevert" : {
-						"addInfo" : 0,
 						"type" : "MORE_DAMAGE_FROM_SPELL",
 						"val" : 100,
 						"subtype" : "spell.slavePriority"
 					}
 				}
 
-					},
+			},
 			"none":{},"basic":{},"advanced":{},"expert":{}
 		},
 		"targetCondition" : {"allOf" : {},"noneOf" : {},"anyOf" : {} },	
@@ -1355,7 +1338,7 @@
 					
 					"powerBoost" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.spellpower", 
+						"subtype" : "spellpower", 
 						"updater" : {
 							"parameters" : [ 5 ],
 							"type" : "GROWS_WITH_LEVEL"

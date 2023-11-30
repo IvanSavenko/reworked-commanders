@@ -23,7 +23,6 @@
 						"addInfo" : 0,
 						"val" : 0,
 						"type" : "ALWAYS_MINIMUM_DAMAGE",
-						"subtype" : -1,
 						"valueType" : "INDEPENDENT_MAX",	
 						"propagator": "BATTLE_WIDE",
 

@@ -34,7 +34,7 @@
 					"flier" :
 					{
 						"type" : "FLYING",
-						"subtype" : 0
+						"subtype" : "movementFlying"
 					},			
 					
 					"noCounter" :
@@ -46,7 +46,7 @@
 			"lycanthroper" :
 			{
 				"type" : "TRANSMUTATION",
-				"subtype" : 1,
+				"subtype" : "transmutationPerUnit",
 				"val" : 100,
 				"addInfo" : "creature.lycanthrope"
 			},
@@ -177,7 +177,7 @@
 				"flier" :
 				{
 					"type" : "FLYING",
-					"subtype" : 0
+					"subtype" : "movementFlying"
 				},
 
 					
@@ -187,7 +187,7 @@
 					  "type" : "ENCHANTED",
 					  "subtype" : "spell.siegeLimiter1",
 					  "propagator" : "BATTLE_WIDE",
-					  "addInfo" : 0,
+//					  "addInfo" : 0,
 					  "limiters": [
 						  [ "noneOf", 
 											  {"type" : "HAS_ANOTHER_BONUS_LIMITER", "parameters" : [ "MORE_DAMAGE_FROM_SPELL", "spell.siegeLimiterOff"]	} ],

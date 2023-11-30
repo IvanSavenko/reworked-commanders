@@ -192,7 +192,7 @@
 					"primaryBloodlust" : {
 						"val" : 6,
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
+						"subtype" : "attack",
 						"effectRange" : "ONLY_MELEE_FIGHT",
 						"duration" : "N_TURNS"
 					},
@@ -281,17 +281,16 @@
 					"primaryBless" : {
 							"val" : 0,
 							"type" : "ALWAYS_MAXIMUM_DAMAGE",
-							"subtype" : -1,
 							"valueType" : "INDEPENDENT_MAX",
 							"duration" : "N_TURNS"
 					},
 					"shieldMelee" : {
 						"val" : 30,
 						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"subtype" : 0,
+						"subtype" : "damageTypeMelee",
 						"duration" : "N_TURNS"
 					}
-					//"shieldRanged" : {"val" : 50,"type" : "GENERAL_DAMAGE_REDUCTION","subtype" : 1,"duration" : "N_TURNS"}
+					//"shieldRanged" : {"val" : 50,"type" : "GENERAL_DAMAGE_REDUCTION","subtype" : "damageTypeRanged","duration" : "N_TURNS"}
 				}
 					},
 			"none":{},"basic":{},"advanced":{},"expert":{
@@ -344,7 +343,7 @@
 							},
 							"primarySkin" : {
 								"type" : "PRIMARY_SKILL",
-								"subtype" : "primarySkill.defence",
+								"subtype" : "defence",
 								"val" : 6,
 								"duration" : "N_TURNS"
 							}
@@ -384,7 +383,7 @@
 				"effects" : {
 					"primaryPrec" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
+						"subtype" : "attack",
 						"val" : 6,
 						"effectRange" : "ONLY_DISTANCE_FIGHT",
 						"duration" : "N_TURNS"
@@ -427,13 +426,13 @@
 				"effects" : {
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
+						"subtype" : "attack",
 						"val" : 2,
 						"duration" : "N_TURNS"
 					},
 					"defence" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
+						"subtype" : "defence",
 						"val" : 2,
 						"duration" : "N_TURNS"
 					},
@@ -478,13 +477,13 @@
 				"effects" : {
 					"attack" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
+						"subtype" : "attack",
 						"val" : 2,
 						"duration" : "N_TURNS"
 					},
 					"defence" : {
 						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
+						"subtype" : "defence",
 						"val" : 2,
 						"duration" : "N_TURNS"
 					},
@@ -498,7 +497,6 @@
 					{
 						"type" : "HP_REGENERATION",
 						"val" : 15,
-						"subtype" : 1,
 						"duration" : "N_TURNS"
 					}
 				}
